@@ -1,49 +1,36 @@
-# Web-Portfolio-Singayan-1
+# Jechris Singayan — Portfolio
 
-**Project: Resume/Portfolio Website**
+A personal portfolio built with HTML, CSS, and vanilla JavaScript. No installation or build step is required.
 
-**Short Description:** 
-A responsive, interactive portfolio with parallax effects, smooth animations, and modern design. Features sticky navigation, project showcases, skills display, and contact information. Built with HTML, CSS, and JavaScript.
+## Preview
 
-**How to run locally: **
+Open `html/index.html` in a browser, or serve the `html` folder locally:
 
-1. Clone the repository
-Copy this command and paste it into your terminal (PowerShell or Git Bash):
-git clone https://github.com/Jechris07/Web-Portfolio-Singayan-1.git
+```powershell
+python -m http.server 8765 --bind 127.0.0.1 --directory html
+```
 
-2. Open the Project in VS Code
-cd Web-Portfolio-Singayan-1
-code .
-If code . doesn’t work, open VS Code manually and choose File → Open Folder..., then select your project folder.
+Then visit http://127.0.0.1:8765. VS Code Live Server also works.
 
-3. Install the Live Server Extension
-In VS Code, go to the Extensions panel (Ctrl + Shift + X).
-Search for “Live Server” by Ritwick Dey.
-Click Install.
+## Included interactions
 
-4. Run the Project
-Open your main file (usually index.html).
-Right-click anywhere in the file and select “Open with Live Server”.
+- Filter work by Web or Python.
+- Open project screenshots and role notes in a keyboard-accessible dialog. Escape closes it and restores focus.
+- Create an eight-step rhythm and play/pause it at 100 BPM. Audio starts only after pressing play and pauses when the tab is hidden.
+- Copy the email address, open the résumé, or use direct email and phone links.
+- Mobile navigation, visible keyboard focus, and reduced-motion support.
 
-and Done!!✅
+## Editing
 
-**Creadits:** Fontawesome (https://fontawesome.com/)
+- `html/index.html`: content, project cards, contact details, and asset references.
+- `html/style/styles.css`: layout, palette, and responsive styles.
+- `html/script/script.js`: filters, project notes, menu, clipboard action, and rhythm pad.
+- `html/images/` and `html/pdf/`: original screenshots, portrait, and résumé.
 
-**Pass or fail checks:**
+Project detail copy lives in the `notes` object in the script. Keep it consistent with the project cards. There are no live-demo or repository links because those destinations have not been supplied.
 
-Sticky nav works while scrolling ✅
-Parallax effect is visible and smooth ✅
-Video loads and plays inside the page ✅
-Site looks good on phone tablet and desktop ✅
-Navigation links jump or route correctly ✅
-No broken links or console errors on load ✅
+Clipboard copying may require localhost or HTTPS; a helpful fallback appears if the browser blocks it. Social links open in a separate tab.
 
-**Suggested sections:**
+## SnapGrade walkthrough
 
-Hero with your name and a short tagline ✅
-About ✅
-Skills with icons or badges ✅
-Projects with cards or a gallery ✅
-Resume link or inline resume section ✅ 
-Contact with a working mailto or form ✅
-
+The first project includes a clearly labeled, browser-only sample with two preset lessons, three questions per lesson, answer explanations, progress, and mistake review. `html/script/walkthrough.js` owns the sample data and state. No live AI generation or backend connection is used. SnapGrade itself runs locally; no public demo or repository URL has been supplied.

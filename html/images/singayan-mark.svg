@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 64" fill="none">
+  <title>Jechris Singayan cyberpunk monogram</title>
+  <!-- Clipped chassis and a broken cyan edge. -->
+  <path d="M13 2H126V47L111 62H2V13L13 2Z" fill="#171D20"/>
+  <path d="M2 24V13L13 2H39M90 62H111L126 47V36" stroke="#5EF3ED" stroke-width="2"/>
+  <!-- Custom angular J and S, drawn as silhouettes rather than font glyphs. -->
+  <path d="M25 14H63L60 23H52L45 44L34 51H15L19 40H29L34 36L38 23H22L25 14Z" fill="#E8FF57"/>
+  <path d="M79 14H114L111 23H84L81 28H102L109 35L104 44L93 51H59L62 42H91L94 37H73L66 30L71 21L79 14Z" fill="#E8FF57"/>
+  <!-- A circuit slash bridges the two letters. -->
+  <path d="M66 9H71L54 55H49L66 9Z" fill="#5EF3ED"/>
+  <path d="M9 54H22M101 9H119" stroke="#5EF3ED" stroke-width="2"/>
+  <path d="M113 53L117 49M118 53L122 49" stroke="#E8FF57" stroke-width="1.5"/>
+</svg>
