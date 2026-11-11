@@ -1,195 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jechris Singayan | Creative Developer</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="style/styles.css">
-
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Jechris Singayan — Full Stack Developer in Quezon City. Web and app development, database management, and system administration."><meta name="theme-color" content="#f3f1e9">
+<script src="script/theme.js"></script>
+<link rel="icon" type="image/svg+xml" href="images/singayan-mark.svg"><title>Jechris Singayan — Full Stack Developer</title><link rel="stylesheet" href="style/styles.css"><script src="script/script.js" defer></script><script src="script/walkthrough.js" defer></script>
 </head>
 <body>
-    <!-- Navigation -->
-    <nav id="navbar">
-        <div class="nav-container">
-            <div class="initials">J/S</div>
-            <ul class="nav-links" id="navLinks">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#resume">Resume</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-            <div class="menu-toggle" id="menuToggle">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </div>
-    </nav>
-
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="hero-content">
-            <h1>Hi, I'm Jechris Singayan</h1>
-            <p>Musician & Developer</p>
-            <a href="#contact" class="cta-button">Let's Work Together</a>
-        </div>
-    </section>
-
-    <!-- Parallax Section -->
-    <div class="parallax" id="parallaxSection">
-        <div class="parallax-bg"></div>
-        <div class="parallax-content">
-            <h2>Passionate about pixels and elegance</h2>   
-            <p>Where stunning visuals meet optimal performance.</p>
-        </div>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header"><a class="wordmark" href="#home" aria-label="Jechris Singayan, home"><img src="images/singayan-mark.svg" width="96" height="48" alt="Jechris Singayan monogram"></a><button class="menu-toggle" aria-expanded="false" aria-controls="navigation">Menu <span aria-hidden="true">+</span></button><nav id="navigation" aria-label="Main navigation"><a href="#projects">Work <span>01</span></a><a href="#about">About <span>02</span></a><a href="#contact">Contact <span>03</span></a></nav><div class="header-actions"><a class="header-resume" href="pdf/Singayan%20-%20resume.pdf" target="_blank" rel="noopener">Résumé <span aria-hidden="true">↗</span></a><button class="theme-toggle" type="button" aria-label="Dark mode" aria-pressed="true" title="Switch to light mode"><svg class="theme-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5"/></svg><svg class="theme-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M20.5 14A8.5 8.5 0 0 1 10 3.5 8.5 8.5 0 1 0 20.5 14Z"/></svg></button></div></header>
+<main id="main">
+<section id="home" class="hero wrap" aria-labelledby="hero-title"><div class="hero-top"><span class="eyebrow"><span class="status-dot"></span> Quezon City, Philippines</span><span class="eyebrow edition">Personal portfolio / <span data-year>2026</span></span></div><h1 id="hero-title">Jechris<br><span class="surname">Singayan<span class="name-period">.</span></span></h1><div class="hero-bottom"><div class="hero-intro"><p class="eyebrow professions"><span class="primary-profession">Full Stack Developer</span><span>Web Developer</span><span>App Developer</span><span>Database Manager</span><span>System Administrator</span></p><p>I build web and app experiences, working across interfaces, backend services, databases, and system administration.</p><a class="button primary" href="#projects">Explore my work <span aria-hidden="true">↘</span></a></div><figure class="portrait"><img src="images/JEKROK%20WHITE%20BG.jpg" alt="Jechris Singayan" width="420" height="470" fetchpriority="high"><figcaption><span>Hey, that’s me.</span><span aria-hidden="true">↖</span></figcaption></figure><div class="hero-note"><span class="asterisk" aria-hidden="true">✳</span><p>BS Information Technology<br>PUP · Quezon City</p><a href="#about">A bit about me ↓</a></div></div></section>
+<section id="projects" class="work wrap" aria-labelledby="work-title"><div class="section-heading"><div><p class="eyebrow">01 / Selected work</p><h2 id="work-title">Made to be used.</h2></div><p>A few projects, and<br>where I fit in.</p></div><div class="work-toolbar"><div class="filters" role="group" aria-label="Filter projects"><button class="filter active" data-filter="all" aria-pressed="true">All work <span>04</span></button><button class="filter" data-filter="web" aria-pressed="false">Web</button><button class="filter" data-filter="python" aria-pressed="false">Python</button></div><span id="project-count" class="eyebrow" role="status">Showing 4 projects</span></div><div class="project-list">
+<article class="project" data-category="web">
+  <button class="project-preview snapgrade" data-project="snapgrade" aria-label="View SnapGrade project">
+    <img src="images/snapgrade.png" alt="SnapGrade quiz creation screen with study notes and quiz options" width="1895" height="905" loading="lazy">
+    <span class="preview-label">Take a closer look <span aria-hidden="true">↗</span></span>
+  </button>
+  <div class="project-info">
+    <span class="project-number">01 / Personal project · Runs locally</span>
+    <h3><button class="project-title" data-project="snapgrade">SnapGrade <span aria-hidden="true">↗</span></button></h3>
+    <p>SnapGrade is an AI-powered study application that transforms notes into interactive quizzes and flashcards. With multiple question formats, answer explanations, mistake review, and progress tracking, it helps students test their understanding, identify learning gaps, and build confidence through practice.</p>
+    <div class="tags"><span>React</span><span>Tailwind CSS</span><span>Vite</span><span>Node.js</span><span>Supabase</span><span>Groq</span></div>
+    <a class="text-link sample-link" href="#snapgrade-demo">Try the interactive sample <span aria-hidden="true">↘</span></a>
+  </div>
+  <div class="case-study" id="snapgrade-demo">
+    <div class="case-intro">
+      <p class="eyebrow">Inside SnapGrade / Interactive walkthrough</p>
+      <h3>Reading is the start.<br>Recall is the test.</h3>
+      <p>Follow a short lesson from notes to questions, then see what you understood and what needs another look.</p>
+      <dl class="case-facts">
+        <div><dt>The purpose</dt><dd>Turn study material into opportunities to practice, with explanations that help connect an answer back to the notes.</dd></div>
+        <div><dt>My contribution</dt><dd>Creator and developer of SnapGrade, working with React, Tailwind CSS, Vite, Node.js, Supabase, and Groq.</dd></div>
+        <div><dt>Why this walkthrough</dt><dd>Choosing an answer, getting feedback, and reviewing mistakes shows the study flow more clearly than a screenshot alone.</dd></div>
+      </dl>
+      <p class="sample-disclosure">This portfolio sample uses preset questions. It demonstrates the flow without calling the live app or generating questions with AI.</p>
     </div>
-
-    <!-- About Section -->
-    <section id="about" class="fade-in">
-        <h2 class="section-title">About Me</h2>
-        <div class="about-content">
-            <div class="about-text">
-                <p>I'm a Third-Year BSIT student from Polytechnic University of the Philippines - Quezon City Branch. Also a Techincal Committee at Commonwealth Informaion Technology Society (COMMITS)</p>
-                <p>My approach combines technical expertise with creative thinking, ensuring that every project not only functions flawlessly but also delights users with intuitive design and smooth interactions.</p>
-            </div>
-            <div class="about-image">
-                <img src="images/JEKROK WHITE BG.jpg"About Me Image>
-            </div>
-        </div>
-    </section>
-
-    <!-- Video Section -->
-    <section id="video" class="fade-in">
-        <h2 class="section-title">Parallax Tutorial</h2>
-        <div class="video-container">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/Jt2yNZdOHxQ?si=kzkSaekfnTcYnW3f" 
-            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </div>
-    </section>
-    
-
-    <!-- Skills Section -->
-    <section id="skills" class="fade-in">
-        <h2 class="section-title">Skills</h2>
-        <div class="skills-grid">
-            <div class="skill-card">
-                <i class="fab fa-html5"></i>
-                <h3>HTML5</h3>
-            </div>
-            <div class="skill-card">
-                <i class="fab fa-css3-alt"></i>
-                <h3>CSS3</h3>
-            </div>
-            <div class="skill-card">
-                <i class="fab fa-js"></i>
-                <h3>JavaScript</h3>
-            </div>
-            <div class="skill-card">
-                <i class="fab fa-git-alt"></i>
-                <h3>Git</h3>
-            </div>
-        </div>
-    </section>
-
-    <!-- Projects Section -->
-    <section id="projects" class="fade-in">
-        <h2 class="section-title">Projects</h2>
-        <div class="projects-grid">
-            <div class="project-card">
-                <div class="project-image">
-                    <img src="images/pupqc gym reservation.png" alt="E-Commerce Platform" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
-                    <i class="fas fa-image image-placeholder" style="display: none;"></i>
-                </div>
-                <div class="project-content">
-                    <h3>PUPQC GYM RESERVATION SYSTEM</h3>
-                    <p>Work as a frontend developer</p>
-                    <div class="project-tags">
-                        <span class="tag">HTML</span>
-                        <span class="tag">CSS</span>
-                        <span class="tag">JS</span>
-                    </div>
-                </div>
-            </div>
-            <div class="project-card">
-                <div class="project-image">
-                    <img src="images/library system.png" alt="Task Management App" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
-                    <i class="fas fa-image image-placeholder" style="display: none;"></i>
-                </div>
-                <div class="project-content">
-                    <h3>Integrated Library System</h3>
-                    <p>Work as a frontend and backend developer using Pycharm</p>
-                    <div class="project-tags">
-                        <span class="tag">HTML</span>
-                        <span class="tag">CSS</span>
-                        <span class="tag">Pycharm</span>
-                    </div>
-                </div>
-            </div>
-            <div class="project-card">
-                <div class="project-image">
-                    <img src="images/enhance calc.jpg" alt="Weather Dashboard" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
-                    <i class="fas fa-image image-placeholder" style="display: none;"></i>
-                </div>
-                <div class="project-content">
-                    <h3>Enhanced Calculator</h3>
-                    <p>I made the semantic diagram and work as a designer of the layout.</p>
-                    <div class="project-tags">
-                        <span class="tag">Python</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Resume Section -->
-    <section id="resume" class="fade-in">
-        <h2 class="section-title">Resume</h2>
-        <div class="resume-content">
-            <p>Download my resume to learn more about my experience, education, and skills.</p>
-            <a href="pdf/Singayan - resume.pdf" class="resume-button">
-                <i class="fas fa-download"></i>
-                Download Resume (PDF)
-            </a>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="fade-in">
-        <h2 class="section-title">Get In Touch</h2>
-        <div class="contact-content">
-            <p>I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.</p>
-            <div class="contact-info">
-                <div class="contact-item">
-                    <i class="fas fa-envelope"></i>
-                    <a href="mailto:jechrispalku56@email.com">jechrispalku56@gmail.com</a>
-                </div>
-                <div class="contact-item">
-                    <i class="fas fa-phone"></i>
-                    <span>+63 9925630130</span>
-                </div>
-                <div class="contact-item">
-                    <i class="fas fa-map-marker-alt"></i>
-                    <span>Philippines, QC</span>
-                </div>
-            </div>
-            <div class="social-links">
-                <a href="https://www.facebook.com/jechris.singayan"><i class="fab fa-facebook"></i></a>
-                <a href="https://www.instagram.com/mob.exe1/"><i class="fab fa-instagram"></i></a>
-                <a href="https://www.youtube.com/@jechrizz25"><i class="fab fa-youtube"></i></a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer>
-        <p>&copy; 2025 Jechris Singayan. All rights reserved.</p>
-    </footer>
-
-    <script src="script/script.js"></script>
-
-</body>
-</html>
+    <div class="study-demo" aria-label="SnapGrade interactive sample">
+      <div class="demo-brand"><span>SnapGrade<span aria-hidden="true"> / </span><small>Try it here</small></span><span class="demo-label">Interactive sample</span></div>
+      <ol class="demo-stages" aria-label="Walkthrough stages"><li data-stage="notes" aria-current="step">01 Notes</li><li data-stage="quiz">02 Practice</li><li data-stage="results">03 Review</li></ol>
+      <div class="demo-screen" id="demo-screen"></div>
+      <noscript><p class="demo-noscript">Enable JavaScript to try the interactive sample. You can still view SnapGrade’s screenshot and project description above.</p></noscript>
+      <p class="demo-footnote">No account needed. Your sample answers stay in this tab.</p>
+    </div>
+  </div>
+</article>
+<article class="project" data-category="web"><button class="project-preview gym" data-project="gym" aria-label="View PUPQC Gym Reservation project"><img src="images/pupqc%20gym%20reservation.png" alt="PUPQC Gym Reservation System interface" width="900" height="560" loading="lazy"><span class="preview-label">Take a closer look <span aria-hidden="true">↗</span></span></button><div class="project-info"><span class="project-number">02 / Web application</span><h3><button class="project-title" data-project="gym">PUPQC Gym <br>Reservation <span aria-hidden="true">↗</span></button></h3><p>A reservation system for the PUP Quezon City gym. I worked on the frontend.</p><div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div></div></article>
+<article class="project" data-category="web"><button class="project-preview library" data-project="library" aria-label="View Integrated Library System project"><img src="images/library%20system.png" alt="Integrated Library System interface" width="900" height="560" loading="lazy"><span class="preview-label">Take a closer look <span aria-hidden="true">↗</span></span></button><div class="project-info"><span class="project-number">03 / Web application</span><h3><button class="project-title" data-project="library">Integrated <br>Library System <span aria-hidden="true">↗</span></button></h3><p>Work on both sides of a library system: the interface and the backend, developed in PyCharm.</p><div class="tags"><span>HTML</span><span>CSS</span><span>Backend development</span></div></div></article>
+<article class="project" data-category="python"><button class="project-preview calculator" data-project="calculator" aria-label="View Enhanced Calculator project"><img src="images/enhance%20calc.jpg" alt="Enhanced Calculator project screenshot" width="900" height="560" loading="lazy"><span class="preview-label">Take a closer look <span aria-hidden="true">↗</span></span></button><div class="project-info"><span class="project-number">04 / Python application</span><h3><button class="project-title" data-project="calculator">Enhanced <br>Calculator <span aria-hidden="true">↗</span></button></h3><p>A Python calculator project. I designed the layout and created the semantic diagram.</p><div class="tags"><span>Python</span><span>Layout design</span></div></div></article>
+</div></section>
+<section id="about" class="about-section" aria-labelledby="about-title"><div class="wrap about-grid"><div><p class="eyebrow">02 / Behind the screen</p><h2 id="about-title">Code in one tab.<br>Music in the other.</h2><div class="about-copy"><p>I’m an IT student at the Polytechnic University of the Philippines, Quezon City Branch, and a Technical Committee member at the Commonwealth Information Technology Society (COMMITS).</p><p>My projects have taken me from frontend work to backend development and interface layouts. Outside of development, I’m a musician.</p></div><a class="text-link" id="resume" href="pdf/Singayan%20-%20resume.pdf" target="_blank" rel="noopener">Read my résumé <span aria-hidden="true">↗</span></a></div><div class="toolbox"><p class="eyebrow">My toolkit</p><dl><div><dt>On the web</dt><dd>React · HTML · CSS · JavaScript<br>Tailwind CSS · Vite</dd></div><div><dt>Backend & data</dt><dd>Node.js · Supabase · Python<br>Groq · PyCharm</dd></div><div><dt>Keeping track</dt><dd>Git</dd></div></dl><div class="rhythm"><div class="rhythm-heading"><span class="eyebrow">A little rhythm break</span><span class="eyebrow">100 BPM</span></div><p>Pick your beats. Press play.</p><div class="steps" role="group" aria-label="Eight-step rhythm pattern"></div><button class="beat-play" aria-pressed="false">Play rhythm <span aria-hidden="true">▶</span></button><span class="beat-status" role="status">Sound starts only when you press play.</span><details class="rhythm-build"><summary>How this rhythm pad works</summary><p>Eight buttons define a repeating pattern. JavaScript checks each step at 100 BPM, and the Web Audio API creates each kick with an oscillator and a short volume envelope. The loop pauses when you leave the tab.</p></details></div></div></div></section>
+<section id="contact" class="contact wrap" aria-labelledby="contact-title"><p class="eyebrow">03 / Say hello</p><h2 id="contact-title">Have something<br>in mind<span>?</span></h2><div class="contact-bottom"><div><p>For a project, a collaboration, or just a hello.</p><a class="email" href="mailto:jechrispalku56@gmail.com">jechrispalku56@gmail.com <span aria-hidden="true">↗</span></a><button class="copy-email">Copy email <span aria-hidden="true">⧉</span></button><span id="copy-status" role="status"></span></div><div class="contact-links"><a href="tel:+639925630130">+63 992 563 0130 <span aria-hidden="true">↗</span></a><a href="https://www.facebook.com/jechris.singayan" target="_blank" rel="noopener">Facebook <span aria-hidden="true">↗</span></a><a href="https://www.instagram.com/mob.exe1/" target="_blank" rel="noopener">Instagram <span aria-hidden="true">↗</span></a><a href="https://www.youtube.com/@jechrizz25" target="_blank" rel="noopener">YouTube <span aria-hidden="true">↗</span></a></div></div></section>
+</main>
+<footer class="wrap"><span>© <span data-year>2026</span> Jechris Singayan</span><span>Built with HTML, CSS & a little JavaScript.</span><a href="#home">Back to top ↑</a></footer>
+<dialog id="project-dialog" aria-labelledby="dialog-title"><div class="dialog-toolbar"><span class="eyebrow">Project notes</span><button class="dialog-close" aria-label="Close project details">Close ×</button></div><img id="dialog-image" src="images/pupqc%20gym%20reservation.png" alt=""><div class="dialog-copy"><p class="eyebrow" id="dialog-role"></p><h2 id="dialog-title"></h2><p id="dialog-description"></p><a id="dialog-original" target="_blank" rel="noopener">Open full-size screenshot ↗</a></div></dialog>
+</body></html>
